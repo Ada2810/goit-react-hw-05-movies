@@ -1,0 +1,41 @@
+.cast-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.cast-title {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.cast-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cast-item {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+    width: 150px;
+}
+
+.cast-item:hover {
+    transform: scale(1.05);
+}
+
+.cast-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cast-item p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+}
